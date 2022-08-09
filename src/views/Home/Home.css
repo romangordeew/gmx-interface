@@ -50,8 +50,16 @@
   margin-bottom: 2.8rem;
 }
 
+.light .Home-description {
+  color: var(--light-blue);
+}
+
 .Home-benefits-section {
   background: #17182c;
+}
+
+.light .Home-benefits-section{
+  background: var(--light-background);
 }
 
 .Home-benefits {
@@ -82,6 +90,10 @@
   letter-spacing: 0;
 }
 
+.light .Home-benefit-description{
+  color: var(--light-blue);
+}
+
 .Home-benefit-icon {
   display: flex;
   align-items: center;
@@ -91,6 +103,10 @@
 
 .Home-cta-section {
   background: #101124;
+}
+
+.light .Home-cta-section{
+  background: var(--light-background);
 }
 
 .Home-cta-container {
@@ -121,6 +137,10 @@
   margin-bottom: 5rem;
 }
 
+.light .Home-cta-info__description{
+  color: var(--light-blue);
+}
+
 .Home-cta-options {
   max-width: 58.9rem;
   width: 100%;
@@ -141,6 +161,10 @@
   letter-spacing: 0px;
   color: #a0a3c4;
   margin-bottom: 0.3rem;
+}
+
+.light .Home-cta-option-subtitle{
+  color: var(--light-blue);
 }
 
 .Home-cta-option-action {
@@ -179,6 +203,10 @@
   justify-content: space-between;
 }
 
+.light .Home-cta-option{
+  background: var(--light-background);
+}
+
 .Home-cta-option-info {
   text-align: right;
 }
@@ -204,6 +232,10 @@
   padding-bottom: 7.75rem;
   background: #17182c;
   margin-bottom: -4.65rem;
+}
+
+.light .Home-token-card-section{
+  background: var(--light-background);
 }
 
 .Home-token-card-info {
@@ -235,6 +267,10 @@
   border-radius: 4px;
 }
 
+.light .Home-token-card-option{
+  background: var(--light-background);
+}
+
 .Home-token-card-option-icon {
   display: flex;
   align-items: center;
@@ -244,6 +280,10 @@
   letter-spacing: 0px;
   color: #ffffff;
   height: 3.1rem;
+}
+
+.light .Home-token-card-option-icon{
+  color: var(--light-blue);
 }
 
 .Home-token-card-option-icon img {
@@ -257,6 +297,9 @@
   color: #fff;
   margin-top: 2.325rem;
 }
+.light .Home-token-card-option-title{
+  color: var(--light-blue);
+}
 
 .Home-token-card-option-apr {
   font-size: 1.5rem;
@@ -264,6 +307,9 @@
   letter-spacing: 0px;
   color: #a0a3c4;
   margin-top: 1.9375rem;
+}
+.light .Home-token-card-option-apr{
+  color: var(--light-blue);
 }
 
 .Home-token-card-option-action {
@@ -319,6 +365,9 @@
   line-height: 2.5rem;
   letter-spacing: 0px;
 }
+.light .Home-latest-info__title{
+  color: var(--light-blue);
+}
 
 .Home-latest-info__value {
   font-family: "RelativeNumber";
@@ -327,6 +376,9 @@
   line-height: 3.9rem;
   letter-spacing: 0px;
 }
+.light .Home-latest-info__value{
+  color: var(--light-blue);
+}
 
 .Home-latest-info__description {
   letter-spacing: 0px;
@@ -334,10 +386,17 @@
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
+.light .Home-latest-info__description{
+  color: var(--light-blue);
+}
 
 .Home-video-section {
   background: #101124;
   padding: 8rem 0;
+}
+
+.light .Home-video-section{
+  background: var(--light-background);
 }
 
 .Home-video-block {
@@ -351,9 +410,17 @@
   margin: 0 auto;
 }
 
+.light .Home-video-block{
+  background: var(--light-background);
+}
+
 .Home-faqs-section {
   background: #101124;
   padding: 8rem 0;
+}
+
+.light .Home-faqs-section{
+  background: var(--light-background);
 }
 
 .Home-faqs-container {
@@ -372,6 +439,9 @@
   font-size: 3.8rem;
   line-height: 4.8rem;
 }
+.light .Home-faqs-introduction__title{
+  color: var(--light-blue);
+}
 
 .Home-faqs-introduction__description {
   letter-spacing: 0px;
@@ -382,6 +452,10 @@
   margin-top: 1.5rem;
   max-width: 29.8rem;
 }
+.light .Home-faqs-introduction__description{
+  color: var(--light-blue);
+}
+
 
 .Home-faqs-content-block {
   max-width: 80.6rem;
@@ -397,9 +471,15 @@
   width: 100%;
   max-width: 80.6rem;
 }
+.light .Home-faqs-content{
+  background: var(--light-background);
+}
 
 .Home-faqs-content:hover {
   background: #17182c55;
+}
+.light Home-faqs-content:hover {
+  background: var(--light-background);
 }
 
 .Home-faqs-content + .Home-faqs-content {
@@ -424,6 +504,9 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
+.light .Home-faqs-content-header__text{
+  color: var(--light-blue);
+}
 
 .Home-faqs-content-main {
   overflow: hidden;
@@ -433,6 +516,9 @@
   letter-spacing: 0px;
   color: #a0a3c4;
   transition: all 0.3s ease-in-out 0s;
+}
+.light .Home-faqs-content-main{
+  color: var(--light-blue);
 }
 
 .Home-faqs-content-main.opened {
@@ -539,6 +625,9 @@
     max-width: 44.4rem;
     color: #a0a3c4;
     margin-bottom: 2.6rem;
+  }
+  .light .Home-description{
+    color: var(--light-blue);
   }
 
   .Home-latest-info__value {

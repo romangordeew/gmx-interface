@@ -25,6 +25,10 @@
   border: 1px solid #2a2b3d;
   border-radius: 0.4rem;
 }
+
+.light .referral-card {
+  background: var(--light-background);
+}
 .referral-card .title {
   font-weight: 500;
   font-size: 2.325rem;
@@ -33,6 +37,11 @@
   padding: 0.775rem 0;
   margin: 0;
 }
+
+.light .referral-card .title {
+  color: var(--light-blue);
+}
+
 .referral-card .sub-title {
   font-size: 1.8rem;
   line-height: 2.5rem;
@@ -40,6 +49,11 @@
   color: #fff;
   margin-top: 1.1625rem;
 }
+
+.light .referral-card .sub-title  {
+  color: var(--light-blue);
+}
+
 .referral-card .card-action {
   margin-top: 3.1rem;
 }
@@ -82,6 +96,10 @@
   color: #a9a9b0;
   margin-right: 0.775rem;
 }
+
+.light .active-referral-code .tier span {
+  color: var(--light-blue-accent);
+}
 .active-referral-code .tier a {
   text-decoration: none;
   font-size: 0;
@@ -120,6 +138,12 @@
   border-radius: var(--border-radius-sm);
   cursor: pointer;
 }
+
+.light .transparent-btn {
+  color: var(--light-blue);
+}
+
+
 .transparent-btn:hover {
   background: rgba(128, 138, 255, 0.0784313725490196);
 }
@@ -136,6 +160,10 @@
   color: #a9a9b0;
   font-size: 1.4rem;
   margin-left: 0.775rem;
+}
+
+.light .referral-table-header .sub-title {
+  color: var(--light-blue);
 }
 
 .referral-table-header .ml-small {
@@ -177,6 +205,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.light .info-card{
+  background: var(--light-background);
+}
 .info-card .label {
   font-size: 1.5rem;
   line-height: 2.1rem;
@@ -186,6 +218,12 @@
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
+
+.light .info-card .label{
+  color: var(--light-blue);
+}
+
 .info-card .data {
   font-size: 2.325rem;
   font-weight: normal;
@@ -235,6 +273,10 @@
   color: #a9a9b0;
   text-transform: uppercase;
 }
+
+.light .referral-table th {
+  color: var(--light-blue);
+}
 .referral-table th,
 .referral-table td {
   padding: 0.625em;
@@ -269,6 +311,10 @@
   border-radius: 0.4rem;
   background: #16182e;
   font-size: 1.5rem;
+}
+
+.light .empty-message {
+  background: var(--light-background);
 }
 .confirm-checkbox .Checkbox {
   width: 100%;

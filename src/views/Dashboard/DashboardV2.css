@@ -21,6 +21,11 @@
   text-align: left;
 }
 
+.light .token-table-wrapper{
+  background: var(--light-background);
+  border: 1px solid var(--light-border-color);
+}
+
 .token-table-wrapper .App-card-title {
   justify-content: unset;
 }
@@ -77,10 +82,18 @@
   cursor: pointer;
 }
 
+.light .stats-label{
+  background: var(--light-background);
+}
+
 .stats-label-color {
   width: 0.4rem;
   height: 100%;
   margin-right: 1.5rem;
+}
+
+.light .stats-piechart text {
+  fill: var(--light-blue);
 }
 
 .Available-network-group {

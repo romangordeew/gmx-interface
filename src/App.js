@@ -109,6 +109,7 @@ import { useLocalStorage } from "react-use";
 import { RedirectPopupModal } from "./components/ModalViews/RedirectModal";
 import { REDIRECT_POPUP_TIMESTAMP_KEY } from "./utils/constants";
 import Jobs from "./views/Jobs/Jobs";
+import ThemeSwitch from "./components/ThemeSwitch/ThemeSwitch";
 
 if ("ethereum" in window) {
   window.ethereum.autoRefreshOnNetworkChange = false;
@@ -438,7 +439,7 @@ function FullApp() {
   const [isPnlInLeverage, setIsPnlInLeverage] = useState(false);
   const [shouldDisableOrderValidation, setShouldDisableOrderValidation] = useState(false);
   const [showPnlAfterFees, setShowPnlAfterFees] = useState(false);
-
+  const [theme, setTheme] = useState('dark');
   const [savedIsPnlInLeverage, setSavedIsPnlInLeverage] = useLocalStorageSerializeKey(
     [chainId, IS_PNL_IN_LEVERAGE_KEY],
     false
@@ -457,6 +458,10 @@ function FullApp() {
     [chainId, SHOULD_SHOW_POSITION_LINES_KEY],
     false
   );
+
+  const changeTheme = (theme) => {
+    setTheme(theme);
+  }
 
   const openSettings = () => {
     const slippage = parseInt(savedSlippageAmount);
@@ -658,7 +663,7 @@ function FullApp() {
         <div className="App-background-ball-1"></div>
         <div className="App-background-ball-2"></div>
         <div className="App-highlight"></div> */}
-        <div className="App-content">
+        <div className={cx("App-content", theme)}>
           {isDrawerVisible && (
             <AnimatePresence>
               {isDrawerVisible && (
@@ -699,6 +704,7 @@ function FullApp() {
                 <AppHeaderLinks HeaderLink={HeaderLink} />
               </div>
               <div className="App-header-container-right">
+                <ThemeSwitch theme={theme} changeTheme={changeTheme}/>
                 <AppHeaderUser
                   HeaderLink={HeaderLink}
                   disconnectAccountAndCloseSettings={disconnectAccountAndCloseSettings}

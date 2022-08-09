@@ -2,6 +2,9 @@
   background: #101124;
   justify-content: space-between;
 }
+.light .BuyGMXGLP{
+  background: var(--light-background);
+}
 
 .BuyGMXGLP-container {
   padding-top: 4.65rem;
@@ -39,6 +42,10 @@
 .BuyGMXGLP-description {
   letter-spacing: 0px;
   color: #a9a9b0;
+}
+
+.light .BuyGMXGLP-description{
+  color: var(--light-blue);
 }
 
 .BuyGMXGLP-description a {
@@ -122,6 +129,7 @@
   font-size: 1.85rem;
   line-height: 2.325rem;
 }
+
 
 .GMX-block-section {
   display: flex;

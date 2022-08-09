@@ -10,6 +10,11 @@
   border: 1px solid #23263b;
 }
 
+.light .Exchange-trigger-order-info,
+.light .Exchange-trigger-order-info a {
+  color: var(--light-blue);
+}
+
 .Exchange-list-tab-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -124,6 +129,10 @@
   border-radius: 0.6rem;
 }
 
+.light .Exchange-swap-connect-wallet:hover{
+  background: var(--light-background);
+}
+
 .Exchange-swap-settings.Exchange-swap-txns-status {
   text-align: right;
   margin-right: 1.5rem;
@@ -154,6 +163,11 @@
   opacity: 0.7;
   cursor: pointer;
 }
+
+.light .Exchange-swap-leverage-option{
+  color: var(--light-blue);
+}
+
 
 .Exchange-swap-leverage-option.active {
   background: #842ec9;
@@ -337,6 +351,10 @@
   color: rgba(255, 255, 255, 0.7);
   font-weight: bold;
 }
+
+.light .ExchangeChart-bottom-stats-label{
+  color: var(--light-blue);
+}
 .ExchangeChart-bottom-stats-value {
   display: inline-block;
   margin-left: 0.31rem;
@@ -465,8 +483,16 @@ button.Exchange-list-action {
   margin-right: 1.5rem;
 }
 
+.light button.Exchange-list-action{
+  color: var(--light-blue);
+}
+
 button.Exchange-list-action:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+.light button.Exchange-list-action:hover {
+  color: var(--light-blue);
 }
 
 table.Exchange-list {
@@ -497,6 +523,10 @@ table.Exchange-list tr:last-child {
 table.Exchange-list tr:hover {
   background: linear-gradient(90deg, rgba(30, 34, 61, 1) 0%, rgba(38, 43, 71, 1) 100%);
   box-shadow: inset 0px 0px 3rem 0.5rem rgba(255, 255, 255, 0.01);
+}
+
+.light table.Exchange-list tr:hover{
+  background: var(--light-background);
 }
 
 table.Exchange-list tr.Exchange-list-header {
@@ -659,6 +689,10 @@ table.Exchange-list th {
   box-shadow: inset 0px 0px 3rem 0.5rem rgba(255, 255, 255, 0.01);
 }
 
+.light .Exchange-swap-section{
+  background: var(--light-background);
+}
+
 .Exchange-swap-option-tabs.Tab.block .Tab-option {
   padding: 1.05rem;
 }
@@ -788,6 +822,10 @@ table.Exchange-list-small {
   background: linear-gradient(45deg, rgba(11, 5, 55, 0.6) 0%, rgba(21, 3, 48, 0.6) 100%);
 }
 
+.light table.Exchange-list-small {
+  background: var(--light-background);
+}
+
 table.Exchange-list-small th,
 table.Exchange-list-small td {
   font-weight: normal;
@@ -869,6 +907,11 @@ table.Exchange-list-small td {
   color: white;
   padding: 0;
 }
+
+.light .cancel-order-btn{
+  color: var(--light-blue);
+}
+
 .cancel-order-btn:hover {
   opacity: 0.8;
 }

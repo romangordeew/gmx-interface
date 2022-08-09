@@ -22,6 +22,10 @@
   /* color: #a0a3c4; */
 }
 
+.light .body-text{
+  color: var(--light-blue);
+}
+
 .body-title {
   font-weight: 500;
   margin-bottom: 1.5rem;

@@ -10,6 +10,8 @@ body,
   background-color: #101124;
 }
 
+
+
 * {
   box-sizing: border-box;
   font-family: "Relative", sans-serif;
@@ -53,10 +55,21 @@ input {
   --arbitrum-blue: #28a0f0;
   --border-radius-sm: 4px;
   --error-red: #fa3c58;
+  --light-background: white;
+  --light-blue: #434553;
+  --light-blue-accent: #4a4c5e;
+  --light-blue-hover: #808aff14;
+  --light-blue-border: #ffffff29;
+  --light-blue-active: #818cef33;
+  --light-border-color: #dfe2fa;
 }
 
 a {
   color: white;
+}
+
+.light a {
+  color: var(--light-blue);
 }
 
 .Card-title {
@@ -72,6 +85,10 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.light input {
+  color: var(--light-blue);
 }
 
 input {
@@ -179,6 +196,9 @@ a.plain {
   background-color: green;
 }
 
+.light .default-btn {
+  color: var(--light-blue);
+}
 .default-btn {
   background: #2d42fc;
   border-radius: 4px;
@@ -235,6 +255,10 @@ a.plain {
   border-radius: 50%;
   transform: scale(0);
   animation: ripple 600ms linear;
+}
+
+.light .default-btn:disabled {
+  color: var(--light-blue);
 }
 
 .default-btn:disabled {
@@ -327,6 +351,9 @@ button.btn-link {
   font-size: 1.5rem;
   display: block;
   text-align: left;
+}
+.light button.btn-link {
+  color: var(--light-blue);
 }
 
 .logout-icon {

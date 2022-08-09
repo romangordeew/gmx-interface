@@ -6,6 +6,9 @@
   outline: none;
   z-index: 100;
 }
+.light .asset-menu-items{
+  background: var(--light-background);
+}
 
 .center-both {
   display: flex;
@@ -19,6 +22,11 @@
   color: white;
   opacity: 0.8;
 }
+
+.light .dropdown-arrow{
+  color: var(--light-blue);
+}
+
 .dropdown-arrow:hover {
   opacity: 1;
 }
@@ -31,10 +39,20 @@
   text-decoration: none;
   padding: 0.85rem 0.8rem;
 }
+
+.light .asset-item{
+  color: var(--light-blue);
+}
 .asset-item:hover {
   background: var(--dark-blue-hover);
   color: white;
   border-radius: 0.4rem;
+}
+
+
+.light .asset-item:hover{
+  background: var(--light-background);
+  color: var(--light-blue);
 }
 .asset-item p {
   margin: 0;

@@ -9,6 +9,14 @@
 .jobs-page-body a {
   color: #b7b7bd;
 }
+.light .jobs-page-body a {
+  color: var(--light-blue-accent);
+}
+
+
+.light .jobs-page-body {
+  color: var(--light-blue);
+}
 
 .body-para .subheading {
   margin: 0;

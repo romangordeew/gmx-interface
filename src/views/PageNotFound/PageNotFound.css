@@ -19,6 +19,11 @@
   color: white;
 }
 
+.light .go-back span,
+.light go-back a{
+  color: var(--light-blue);
+}
+
 @media (max-width: 500px) {
   .page-not-found img {
     max-width: 200px;
